@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background: #fff;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.first-section{
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.second-section{
+    /* background: green; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form.inscription{
+    text-align: center;
+    /* background: rgba(0, 0, 0, 0.496); */
+    height: fit-content;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 25px;
+    padding-top: 5px;
+}
+div.form-header{
+    /* background: brown; */
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    /* display: inline-block; */
+}
+
+img.logo{
+    /* display: inline-block; */
+    /* margin-right: 10px; */
+    width: 50px;
+    height: auto;
+    padding-top: 6px;
+    /* margin-top: 10px; */
+}
+
+div.first-input{
+    margin-top: 30px;
+}
+label,
+input{
+    display: block;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+label{
+    margin-bottom: 3px;
+    text-align: left;
+    /* color: #E4E4E7; */
+    color: #ffffff;
+    color: #000;
+}
+input.barre{
+    width: 96%;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    /*color: #94A3B8;
+    */color: #ffffff;
+    color: #000;
+    /*background: #1E293B;
+    */background: rgba(245, 245, 245, 0.212);
+    /*border: 1px solid #94A3B8;
+    */border: 5px solid rgba(0, 179, 255, 0.377);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+input.barre:hover{
+    border: 5px solid transparent;
+    border: 5px solid rgba(0, 179, 255, 0.726);
+}
+input.barre:focus{
+    outline: none;
+}
+input.barre::placeholder{
+    color: #f7f2f2af;
+    color: #00000087;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.remember{
+    text-align: left;
+    margin-top: 25px;
+    color: #ffff;
+    color: #000;
+}
+input[type="checkbox"]{
+    display: inline;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+div.angletag{
+    margin-top: 30px;
+}
+div.angletag button.account{
+    padding: 15px 90px 15px 90px;
+    border-radius: 10px;
+    border: none;
+    border: 5px solid rgba(0, 179, 255, 0.377);
+    background: transparent;
+    color: #ffffff;
+    color: #000;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+div.angletag button.account:hover{
+    background: rgba(0, 179, 255, 0.377);
+    color: #ffff;
+    font-weight: bold;
+}

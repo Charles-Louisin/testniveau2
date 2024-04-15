@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    /* background-color: #0cd671; */
+    flex-wrap: wrap;
+    /* display: flex; */
+}
+
+.card {
+    position: relative;
+    flex-direction: column;
+    background: #fff;
+    
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+    height: fit-content;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.card:hover {
+    box-shadow: 0 0 3px 0 #888;
+}
+
+.card .img-contain {
+    height: 200px;
+    width: 100%;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.card .img-contain img {
+    object-fit: contain;
+}
+.desc {
+    padding: 20px 0;
+}
+
+h3 {
+    padding: 10px 0;
+}
+.addToCard {
+    width: fit-content;
+    padding: 10px 15px;
+    height: 40px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: none;
+    border: 1px solid #00000057;
+    color: #000;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.addToCard:hover{
+    color: #0000007a;
+}
+
+.button-head {
+    width: 100%;
+    height: fit-content;
+    margin-top: 2000px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+.button-head .btn {
+    padding: 10px 20px;
+    box-shadow: 0 0 5px 0 #000;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.button-head .btn:hover {
+    background-color: #88888867;
+    cursor: pointer;
+}
