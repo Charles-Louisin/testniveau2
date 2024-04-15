@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import imgLogo from "../../img/logo512.png"
 import { authContext } from '../../Components/Authprovider';
 import './Login.css'
+import Navbar from '../../Components/Navbar/Navbar';
 
 export default function Login() {
     const users = [
@@ -55,7 +56,9 @@ export default function Login() {
     };
   return (
     <>
+    <Navbar />
     <main>
+        
         <section className="first-section">
             <section className="second-section">
                     <form  className="inscription" onSubmit={handleSubmit}>
